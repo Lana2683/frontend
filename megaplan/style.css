@@ -1,0 +1,76 @@
+body{
+    width: 1280px;
+    height: 728px;
+    margin: auto;
+}
+nav{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #f57b7a;
+    position: fixed;
+    width: 100%;
+    top: 0; 
+    left: 0;
+
+}
+.logo{
+}
+.logo img{
+    width: 138px;
+}
+.items{
+    width: 820px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+i{
+    color: #bcbcbc;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+p.i{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #7a7a7a;
+}
+.avatar{
+    width: 45px;
+    height: 45px;
+    background-color: lightslategrey;
+    display: flex;
+    justify-self: flex-end;
+    border-radius: 33%;
+}
+footer{
+    background-color: #e8e5de; 
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #bcbcbc;
+    position: fixed;
+    width: 100%;
+    bottom: 0; 
+    left: 0;
+}
+.block{
+    font-size: 26px;
+    display: flex;
+    justify-content: space-around;
+}
+.badge{
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    color: #e2281c;
+    background-color: #e5bebf;
+    border-radius: 50%;
+    border: 3px solid #e2281c;
+}
+.input-group{
+    height: 38px;
+}
