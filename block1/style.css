@@ -1,0 +1,53 @@
+body{
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    height: 1000px;  
+}
+.yellow{
+    width: 370px;
+    height: 20px;
+    background-color: #ffd401;
+    margin-top: -20px;
+}
+main{
+    display: flex;
+    width: 1280px;
+    height: 910px;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url(vasilij-tropinin-pushkin.jpg);
+    background-size: 100%;
+}
+
+.container{
+    display: block;
+    margin-left: -130px;
+    margin-top: 145px;
+    width: 800px;
+    height: 810px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.contain{
+    width: 630px;
+    height: 650px;
+    margin:80px;
+}
+p{
+    font-size: 15px;
+}
+h1{
+    font-size: 40px;
+    margin: 0;
+}
+hr{
+    margin-top: 8px;
+}
+h2{
+    font-size: 25px;
+    font-weight: normal;
+}
+img{
+    margin-bottom: 0;
+    margin-top: 60px;
+}
