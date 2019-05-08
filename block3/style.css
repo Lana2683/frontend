@@ -53,13 +53,35 @@ h2{
     margin-top: 80px;
     color: #343434;
 }
-.item {
+a.item {
     font-size: 15px;
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: #343434;
 }
 
 .item i{
     font-size: 20px;
     margin-right: 15px;
+}
+.facebook:hover{
+    color: #3b5998;
+    cursor: pointer;
+}
+.twitter:hover{
+    color: #00acee;
+    cursor: pointer;
+}
+.instagram:hover{
+    color: #c08d64; 
+    cursor: pointer; 
+} 
+.youtube:hover{
+    color: #b2071d;
+    cursor: pointer;
+}
+.foursquare:hover{
+    color: #fa4778;
+    cursor: pointer;
 }
